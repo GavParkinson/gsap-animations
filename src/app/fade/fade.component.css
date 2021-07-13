@@ -1,5 +1,8 @@
 section {
   position: fixed !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 section:not(.first) {

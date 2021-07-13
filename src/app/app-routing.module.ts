@@ -6,16 +6,16 @@ import { SlideComponent } from './slide/slide.component';
 
 const routes: Routes = [
   {
-    path: 'parallax',
-    component: ParallaxComponent
-  },
-  {
     path: 'slide',
     component: SlideComponent
   },
   {
     path: 'fade',
     component: FadeComponent
+  },
+  {
+    path: '',
+    component: ParallaxComponent
   }
 ];
 
